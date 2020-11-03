@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+body {
+  //font-family: "Oswald", sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  width: 100%;
+  //background-color: #fffeef;
+  background-color: #fff;
+  //overflow: hidden;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+// .sub-cont {
+//   position: absolute;
+//   left: 200px;
+//   top: 0;
+//   height: 100%;
+//   padding-left: 260px;
+//   -webkit-transition: -webkit-transform 1.2s ease-in-out;
+//   transition: -webkit-transform 1.2s ease-in-out;
+//   transition: transform 1.2s ease-in-out;
+// }
+
+////=======================================================
+
+// //index.html
+// .theHeader {
+//   padding: 10em 9em 9em 9em;
+//   height: 100%;
+// }
+
+// .theHide {
+//   opacity: 1;
+// }
+
+// .theHead {
+//   color: #fff;
+//   font-size: 5em;
+//   width: 34%;
+//   line-height: 1em;
+//   text-transform: capitalize;
+//   margin-top: 100px;
+//   margin-bottom: 40px;
+// }
+// h1 {
+//   color: #ffe;
+// }
+// button {
+//   width: 180px;
+//   height: 50px;
+//   font-size: 1.2em;
+//   font-weight: bolder;
+//   text-transform: capitalize;
+//   background: none;
+//   outline: none;
+// }
+
+/*
+    THE LOGIN FORM PART
+*/
+////============================================
+.theLeftSide {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  // margin: 0 auto;
+  width: 40%;
+  height: 100vh;
+
+  padding: 150px;
+  box-sizing: border-box;
+  //background-color: #f6f6f6;
+  //background-color: #fff;
+  border-radius: 2px;
+  //box-shadow: 0px 0px 40px #000;
+
+  .form-control {
+    background: none;
+    border-bottom: 1px solid #aaa;
+    padding-left: 0px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    transition: 0.5;
+    color: #333;
+
+    &:focus {
+      border-bottom: 1px solid dodgerblue;
+    }
+
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+  #exampleInputEmail1 {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    text-transform: capitalize;
+    color: #333;
+  }
+  p {
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+  }
+  .theAnc1 {
+    font-size: 16px;
+    box-shadow: none;
+
+    color: #0083c0;
+
+    &:hover {
+      text-decoration: none;
+      color: #0083c0;
+    }
+  }
+  label {
+    font-weight: bold;
+  }
+  input {
+    border: 1px solid #333;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  .btn1 {
+    width: 100%;
+    background-color: #0083c0;
+    color: #fff;
+  }
+  .btn2 {
+    width: 100%;
+    background-color: #aaa;
+    color: #fff;
+    border: none;
+    margin-bottom: 180px;
+  }
+}
+/*
+  =======================================
+*/
+
+.rightSide {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translate(-0%, -0%);
+  background-image: url("../pics/loginKey.svg");
+  background-size: cover;
+  //width: 20%;
+  height: 100vh;
+  width: 68%;
+  z-index: 1;
+}
+
+/*
+    END OF LOGIN FORM PART
+*/
+
+/*
+  =======================================
+*/
+.theAnc {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .theAncHover {
+    text-decoration: none;
+    color: #555;
+
+    &:hover {
+      color: #0083c0;
+    }
+  }
+}
+.theAnc2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .theAncHover2 {
+    color: #555;
+
+    &:hover {
+      text-decoration: none;
+      color: #0083c0;
+    }
+  }
+}
+.toggle2 {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  z-index: 0;
+  top: 0;
+  right: 2%;
+  padding: 1em 1em;
+  margin: 1em 2em;
+  cursor: pointer;
+  transform: translateY(8px) rotate(45deg);
+}
+.toggle2 .bar3 {
+  position: absolute;
+  right: 0px;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  transform: translateY(8px) rotate(180deg);
+}
+.toggle2 .bar4 {
+  position: absolute;
+  right: 0px;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  margin-top: 15px;
+  transform: translateY(-8px) rotate(90deg);
+}
+
+/*
+====>>>>The loader page properties
+    
+*/
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > img {
+    width: 50px;
+  }
+
+  &.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/////>>>> The responsiveness
+@import "responsive";

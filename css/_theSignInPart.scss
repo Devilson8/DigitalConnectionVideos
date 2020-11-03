@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  opacity: 0;
+}
+p {
+  display: inline-block;
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+  color: #000;
+  font-size: 1.9em;
+  text-transform: capitalize;
+  transform: translateX(-100px);
+  font-style: italic;
+}

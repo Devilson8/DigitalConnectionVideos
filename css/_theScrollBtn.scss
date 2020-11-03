@@ -1,0 +1,19 @@
+.theScrollBtn {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 55px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  border: 1px solid dodgerblue;
+  background-color: #f6f6f6;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.material-icons {
+  color: dodgerblue;
+}

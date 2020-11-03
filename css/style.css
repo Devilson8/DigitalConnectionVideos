@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #aaa;
+}
+.container {
+  background-color: #fff;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

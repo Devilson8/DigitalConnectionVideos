@@ -1,0 +1,110 @@
+@import "style2";
+
+@import "theNavBar";
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+  font-family: "Oswald", sans-serif;
+}
+.col-md-8 {
+  border-left: 2px solid #fff;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+//index.html
+.theHeader {
+  padding: 10em 9em 9em 9em;
+  background-image: url("../pics/about.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.theHide {
+  opacity: 1;
+}
+
+.theHead {
+  color: #fff;
+  font-size: 5em;
+  width: 34%;
+  line-height: 1em;
+  text-transform: capitalize;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+h1 {
+  color: #ffe;
+}
+button {
+  width: 180px;
+  height: 50px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-transform: capitalize;
+  background: none;
+  outline: none;
+}
+.theMainHeader3 {
+  padding: 0px 140px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  h1 {
+    color: #fff;
+    float: left;
+  }
+  .theImage {
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 20%;
+    float: left;
+  }
+}
+.theMainHeader2 {
+  display: none;
+
+  padding: 0px 140px;
+
+  h1 {
+    color: #fff;
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+}
+
+.theHeader {
+  background-image: url("../pics/tech6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+a {
+  color: gold;
+
+  &:hover {
+    text-decoration: none;
+    color: orange;
+  }
+}
+.container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.theAbout {
+  padding: 20px;
+  border-radius: 5px;
+}
+@import "responsive";

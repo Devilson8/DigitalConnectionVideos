@@ -1,0 +1,86 @@
+//listes from the responsive menu
+.theUserList {
+  list-style: none;
+}
+
+.theUserList .theList:first-child {
+  color: #444;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-size: 14px;
+  margin-bottom: 45px;
+  font-weight: 600;
+}
+.theUserList .theList:not(:first-child) {
+  color: #444;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 28px;
+}
+.theUserList .theList .theAnchor {
+  color: #555;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+//listes from the desktop menu
+
+.theNav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 59px;
+  transition: 1s;
+  z-index: 1;
+}
+.theNav .theUserList1 {
+  margin: 0px;
+  padding-right: 90px;
+  display: flex;
+  float: right;
+}
+.theNav .theUserList1 .theList1 {
+  list-style: none;
+}
+.theNav .theUserList1 .theList1 .theAnchor1 {
+  color: #555;
+  text-transform: uppercase;
+  line-height: 50px;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 17px;
+  text-decoration: none;
+  display: inline-block;
+}
+.theNav .theUserList1 .theList1 .theAnchor1.active {
+  &::after {
+    content: "";
+    display: block;
+    border: 1px solid #2b5b9a;
+    transform: scaleX(1);
+    transition: transform 250ms ease-in-out;
+  }
+}
+.theNav .theUserList1 .theList1 .theAnchor1 {
+  &::after {
+    content: "";
+    display: block;
+    border: 1px solid #2b5b9a;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    z-index: 1;
+  }
+
+  &:hover:after {
+    transform: scaleX(1);
+  }
+}
+
+.theNav.black {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 59px;
+  border-bottom: 1px solid #444;
+}

@@ -1,0 +1,340 @@
+@import "theScrollBtn";
+@import "theNavBar";
+@import "footer";
+@import "style2";
+
+body {
+  // background-image: url("../pics/11.jpg");
+  // background-size: cover;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  //background-color: #fffeef;
+  //background-image: url("../pics/white16.jpg");
+  background-size: cover;
+}
+.theWhoWeAreHeader {
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.theWhoWeArePara {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/*
+    THE MEMBER SPLIT MAIN HEADER PART
+*/
+
+.theLeftSideMember {
+  //background-color: #fff;
+  background-image: url("../pics/white14_4.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.theRightSideMember {
+  background-image: url("../pics/group3_3.png");
+  background-size: cover;
+  //background-color: #f00;
+  //background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+// .sec2 {
+//   padding: 10px;
+//   height: auto;
+//   background-color: #ffffff;
+//   width: 100%;
+//   margin: 0px auto;
+//   text-align: center;
+// }
+
+//================= end of the beginning part
+//index.html
+.theHeader2 {
+  padding: 9em 9em 9em 9em;
+  height: 100vh;
+  width: 100%;
+}
+
+.theHide {
+  opacity: 1;
+}
+
+.theHead2 {
+  font-size: 2.5em;
+  width: 100%;
+  color: #555;
+  line-height: 1.2em;
+  margin-top: 50px;
+  font-weight: none;
+  margin-bottom: 60px;
+  font-family: Open Sans, "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+.thePara2 {
+  color: #f00;
+  font-size: 1.3em;
+  width: 100%;
+  line-height: 1.3em;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  font-family: Open Sans, "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+/*
+  buttons parts
+*/
+.theButton {
+  width: 180px;
+  height: 50px;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  background: dodgerblue;
+  outline: none;
+}
+.theButton1 {
+  width: 180px;
+  height: 40px;
+  font-size: 1em;
+  text-transform: capitalize;
+  background: dodgerblue;
+  outline: none;
+}
+//desktop header from nav bar
+.theMainHeader4 {
+  padding: 0px 140px;
+
+  h1 {
+    color: #555;
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+}
+.theImage {
+  margin-top: 5px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  float: left;
+}
+//responsive header from toggle-bar
+.theMainHeader5 {
+  display: none;
+}
+#theSec {
+  width: 100%;
+  height: 0vh;
+  background-color: #fff;
+}
+.theHeadMember {
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 40px;
+  width: 100%;
+}
+// .section {
+//   width: 100%;
+//   height: 50vh;
+//   //box-sizing: border-box;
+//   background-image: url("../pics/white6.jpg");
+//   background-size: cover;
+// }
+.sec10 {
+  background-image: url("../pics/11.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  p {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+    color: #333;
+  }
+  .formContact {
+    margin-top: -40px;
+  }
+}
+
+.ourTeam {
+  margin: 50px auto 50px auto;
+  //background-color: #000;
+  background-image: url("../pics/white18.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #ddd;
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+}
+.ourTeam {
+  border-bottom: 2px solid dodgerblue;
+  box-shadow: 0px 0px 20px dodgerblue;
+}
+
+.ourTeam .section-title h2 {
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.ourTeam .section-title span {
+  color: #797e82;
+}
+
+.ourTeam .single-team {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.ourTeam .single-team::before {
+  position: absolute;
+  content: "";
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  //height: 88%;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ourTeam .single-team:hover::before {
+  visibility: visible;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.ourTeam .single-team .social-links {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ourTeam .single-team .social-links ul {
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.ourTeam .single-team .social-links ul li {
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateX(-20px) rotate(-180deg);
+  transform: translateX(-20px) rotate(-180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ourTeam .single-team:hover .social-links ul li {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateX(0px) rotate(0deg);
+  transform: translateX(0px) rotate(0deg);
+}
+
+.ourTeam .single-team .social-links ul li a {
+  color: #fff;
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1b2a2f;
+  border: 1px solid dodgerblue;
+  line-height: 40px;
+  font-size: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ourTeam .single-team .social-links ul li a:hover {
+  background-color: #fff;
+  color: #0083c0;
+}
+
+.ourTeam .single-team .img-wrapper {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.ourTeam .single-team img {
+  width: 100%;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ourTeam .single-team:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+//Part that still need to be fixed
+
+.ourTeam .single-team .txt {
+  position: absolute;
+  bottom: 0;
+  //z-index: 99;
+  padding: 21px 0px 16px;
+  background-color: #fff;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  text-align: center;
+  -webkit-box-shadow: 0px 24px 18px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 24px 18px 0px rgba(0, 0, 0, 0.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ourTeam .single-team:hover .txt {
+  width: 100%;
+  background-color: #fff;
+  color: #444;
+  -webkit-box-shadow: 0px;
+  box-shadow: 0px;
+}
+
+.ourTeam .single-team .txt h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0083c0;
+  margin: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ourTeam .single-team:hover .txt h5 {
+  color: #444;
+}
+
+.ourTeam .single-team .txt span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+@import "responsive";

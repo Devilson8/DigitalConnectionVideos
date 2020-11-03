@@ -1,0 +1,117 @@
+//toggle-btn
+.toggle {
+  position: absolute;
+  top: 10px;
+  margin: 1.4em;
+  padding: 1em;
+  width: 20px;
+  height: 0px;
+  right: 0px;
+  z-index: 1;
+  display: none;
+  cursor: pointer;
+}
+span.one {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+}
+span.two {
+  position: absolute;
+  top: 15px;
+  right: 2px;
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+  margin-top: 12px;
+}
+//menu responsive
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 0;
+  top: -400%;
+  left: 0;
+  border-bottom: 2px double #333;
+}
+.data {
+  padding: 8em 0 0 2em;
+  float: left;
+}
+//listes from the responsive menu
+.theUserList {
+  list-style: none;
+}
+.theUserList .theList:first-child {
+  color: #333;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.theUserList .theList:not(:first-child) {
+  color: #333;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+.theUserList .theList .theAnchor {
+  color: #333;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.theNav {
+  position: fixed;
+  top: 3%;
+  right: 0%;
+}
+.theNav .theUserList1 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.theNav .theUserList1 .theList1 {
+  list-style: none;
+}
+.theNav .theUserList1 .theList1 .theAnchor1 {
+  font-size: 16px;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 50px;
+  height: 50px;
+  padding: 0px 20px;
+  font-size: 17px;
+  text-decoration: none;
+  display: inline-block;
+}
+.theNav .theUserList1 .theList1 .theAnchor1.active {
+  &::after {
+    content: "";
+    display: block;
+    border: 1px solid #333;
+    transform: scaleX(1);
+    transition: transform 250ms ease-in-out;
+  }
+}
+.theNav .theUserList1 .theList1 .theAnchor1 {
+  &::after {
+    content: "";
+    display: block;
+    border: 1px solid #333;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+
+  &:hover:after {
+    transform: scaleX(1);
+  }
+}

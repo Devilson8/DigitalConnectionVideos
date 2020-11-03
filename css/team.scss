@@ -1,0 +1,225 @@
+body {
+  //background-color: #fffeef;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  //background-image: url("../pics/brainstorming_.png");
+
+  //background-image: url("../pics/white14.jpg");
+  // background-size: cover;
+
+  //background-position: center;
+}
+.fontPara {
+  font-family: Open Sans, "Helvetica Neue", "Helvetica", Helvetica, Arial,
+    sans-serif;
+}
+.main2 {
+  background-image: url("../pics/white6.jpg");
+  background-size: cover;
+}
+/*
+  The return button
+*/
+
+.theReturn {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: inherit;
+  }
+}
+/*
+  Took this part of fieldset from a guy in stackoveflow
+
+  https://stackoverflow.com/questions/16852484/use-fieldset-legend-with-bootstrap
+*/
+
+// START
+fieldset {
+  border: 1px solid #eee !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 2em 0 3em 0 !important;
+  -webkit-box-shadow: 0px 0px 0px 0px #000;
+  box-shadow: 0px 0px 50px #ddd;
+  border-radius: 10px;
+  background-image: url("../pics/white11.jpg");
+  background-size: cover;
+}
+legend {
+  width: inherit; /* Or auto */
+  padding: 0 10px; /* To give a bit of padding on the left and right */
+  border-bottom: none;
+  color: #555;
+  font-weight: 600;
+}
+//END
+//======================================
+
+.aboutus-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.theTeamRow {
+  //background-image: url("../pics/white14.jpg");
+  //background-size: cover;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #eee;
+  padding: 50px;
+  border-radius: 10px;
+}
+/*-- aboutus Image --*/
+.aboutus-image {
+  margin-right: 52px;
+  width: 318px;
+}
+.aboutus-image img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #ddd;
+}
+/*
+  Section5 part
+*/
+.secBio {
+  padding: 20px;
+  height: auto;
+  background-color: #efffff;
+  border-bottom: 1px solid #eee;
+
+  h1 {
+    width: 80%;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0083c0;
+    text-align: center;
+    margin: auto;
+  }
+}
+.theClose {
+  position: absolute;
+  right: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.8em;
+}
+
+.theButton {
+  font-size: 13px;
+  background-color: #0083c0;
+  opacity: 1;
+  color: #fff;
+  border: none;
+
+  &:hover {
+    background-color: #008380;
+    //outline: none;
+    box-shadow: none;
+    color: #fff;
+  }
+  &:focus {
+    background-color: #0083c0;
+    box-shadow: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .aboutus-image {
+    margin-right: 35px;
+    width: 345px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    float: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aboutus-image {
+    margin-bottom: 30px;
+    margin-right: 0;
+    float: none;
+    width: auto;
+  }
+}
+.aboutus-image img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ddd;
+}
+
+/*-- aboutus Content --*/
+.aboutus-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 2px;
+}
+@media only screen and (max-width: 479px) {
+  .aboutus-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.aboutus-content h1 span {
+  color: #0083c0;
+}
+
+.aboutus-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9b9b;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.aboutus-content p {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+/*-- counter --*/
+.counter {
+  //border: 1px solid #eeeeee;
+  margin-top: 32px;
+  float: left;
+  width: 100%;
+}
+.counter .single-counter {
+  float: left;
+  width: 25%;
+  padding: 28px 15px 28px;
+}
+@media only screen and (max-width: 767px) {
+  .counter .single-counter {
+    width: 50%;
+  }
+  .counter .single-counter:nth-child(3) {
+    //border-top: 1px solid #eeeeee;
+    //border-left: 0px solid #eeeeee;
+  }
+  .counter .single-counter:nth-child(4) {
+    //border-top: 1px solid #eeeeee;
+  }
+}
+.counter .single-counter + .single-counter {
+  //border-left: 1px solid #eeeeee;
+}
+.counter .single-counter h2 {
+  font-size: 30px;
+  color: #71b100;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.counter .single-counter p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #8f8f8f;
+}
+@import "responsive";
