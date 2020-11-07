@@ -54,102 +54,14 @@ $(document).ready(function () {
 });
 
 //Toaster notifications
-document.getElementById("theButton").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "This link is not available yet",
-    icon: "warning",
-    showHideTransition: "slide",
-    bgColor: "#FF1356",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
 
-document.getElementById("theButton1").addEventListener("click", function () {
+document.getElementById("theButton2").addEventListener("click", function () {
   $.toast({
-    heading: "In Process",
-    text: "This link is not available yet",
-    showHideTransition: "slide",
-    icon: "warning",
-    bgColor: "#FF1356",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-
-document.getElementById("socialAcc1").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "Unfortunately we do not have account on social media yet",
-    showHideTransition: "slide",
-    icon: "warning",
-    bgColor: "#FF1356",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-document.getElementById("socialAcc2").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "Unfortunately we do not have account on social media yet",
-    showHideTransition: "slide",
-    icon: "warning",
-    bgColor: "#FF1356",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-document.getElementById("socialAcc3").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "Unfortunately we do not have account on social media yet",
-    showHideTransition: "slide",
-    icon: "warning",
-    bgColor: "#FF1356",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-
-document.getElementById("theMember1").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "Our member groups will be published soon soon",
-    showHideTransition: "slide",
+    heading: "Sorry for inconvenience",
+    text: "About Page still under construction.",
     icon: "info",
-    bgColor: "#345",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-
-document.getElementById("theMember2").addEventListener("click", function () {
-  $.toast({
-    heading: "In Process",
-    text: "Our member groups will be published soon soon 😊",
     showHideTransition: "slide",
-    icon: "info",
-    bgColor: "#345",
-    textColor: "white",
-    loader: false,
-    position: "mid-center",
-  });
-});
-
-document.getElementById("franceLang").addEventListener("click", function () {
-  $.toast({
-    heading: "Coming Soon",
-    text: "No translation in french yet",
-    showHideTransition: "slide",
-    icon: "info",
-    bgColor: "#f00",
+    bgColor: "orange",
     textColor: "white",
     loader: false,
     position: "mid-center",
