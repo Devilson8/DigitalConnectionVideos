@@ -3760,7 +3760,7 @@ body {
 
 .nav-pills .nav-item .nav-link {
   padding: 10px 23px;
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(222, 222, 222, 0.8);
   min-width: 100px;
   font-weight: 400;
   text-align: center;
@@ -3768,7 +3768,8 @@ body {
 }
 
 .nav-pills .nav-item .nav-link:hover {
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(222, 222, 222, 0.4);
+  transition: all 0.5s ease-in;
 }
 
 .nav-pills .nav-item .nav-link.active,

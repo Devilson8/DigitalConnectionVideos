@@ -41,9 +41,10 @@
   .theLeftSideMember {
     width: 100%;
     height: 100vh;
-    z-index: -1;
+    //z-index: -1;
+    //background-color: #f00;
 
-    box-shadow: 0px 0px 40px #eee;
+    //box-shadow: 0px 0px 40px #eee;
   }
   .theRightSideMember {
     width: 100%;
@@ -570,10 +571,10 @@
     THE MEMBER SPLIT MAIN HEADER PART
 */
   .theLeftSideMember {
-    width: 110%;
+    width: 100%;
     height: 100vh;
-    z-index: 0;
-    background-image: url("../pics/white14_4.jpg");
+    //z-index: 0;
+    background-image: url("../pics/white23.png");
     background-size: cover;
   }
 }
@@ -638,10 +639,10 @@
     THE MEMBER SPLIT MAIN HEADER PART
 */
   .theLeftSideMember {
-    width: 110%;
+    width: 100%;
     height: 100vh;
-    z-index: 0;
-    background-image: url("../pics/white14_4.jpg");
+    //z-index: 0;
+    background-image: url("../pics/white23.png");
     background-size: cover;
   }
 }
@@ -694,7 +695,6 @@
     padding: 6em 9em 9em 2em;
     height: 100vh;
     width: 100%;
-    background-color: #fff;
 
     .theButton {
       display: flex;
@@ -729,7 +729,7 @@
   }
   //THE RIGHT SIDE OF FROM THE MEMBER LINK
   .theRightSideMember {
-    background-image: url("../pics/group3_3.png");
+    background-image: url("../pics/group3_3_transpa.png");
     background-size: cover;
     background-position: center;
   }
@@ -1255,7 +1255,7 @@
   .theLeftSideMember {
     height: 100vh;
     width: 100%;
-    background-image: url("../pics/white14_4.jpg");
+    background-image: url("../pics/white23.png");
     background-size: cover;
   }
   .theRightSideMember {
@@ -1337,7 +1337,6 @@
     padding: 6em 9em 9em 2em;
     height: 100vh;
     width: 100%;
-    background-color: #fff;
 
     .theButton {
       display: flex;
@@ -1372,7 +1371,7 @@
   }
   //THE RIGHT SIDE OF FROM THE MEMBER LINK
   .theRightSideMember {
-    background-image: url("../pics/group3_3.png");
+    background-image: url("../pics/group3_3_transpa.png");
     background-size: cover;
     background-position: center;
   }
@@ -1552,7 +1551,7 @@
   .theLeftSideMember {
     height: 50vh;
     width: 100%;
-    background-image: url("../pics/white14_4.jpg");
+    background-image: url("../pics/white23_3.png");
     background-size: cover;
   }
   .theRightSideMember {
@@ -3798,7 +3797,6 @@
     padding: 5em 9em 9em 2em;
     height: 100vh;
     width: 100%;
-    background-color: #fff;
 
     .theButton {
       display: flex;
@@ -3839,7 +3837,7 @@
   }
   //THE RIGHT SIDE OF FROM THE MEMBER LINK
   .theRightSideMember {
-    background-image: url("../pics/group3_3.png");
+    background-image: url("../pics/group3_3_transpa.png");
     background-size: cover;
     background-position: center;
   }
@@ -4683,7 +4681,7 @@
   }
   //THE RIGHT SIDE OF FROM THE MEMBER LINK
   .theRightSideMember {
-    background-image: url("../pics/group3_3.png");
+    background-image: url("../pics/group3_3_transpa.png");
     background-size: cover;
     background-position: center;
   }
