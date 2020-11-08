@@ -18,3 +18,18 @@ var quill = new Quill(".editor", {
 });
 
 //quill.enable(false);
+
+//Toaster notifications
+
+document.getElementById("theButton3").addEventListener("click", function () {
+  $.toast({
+    heading: "Sorry for inconvenience",
+    text: "About Page still under construction.",
+    icon: "info",
+    showHideTransition: "slide",
+    bgColor: "orange",
+    textColor: "white",
+    loader: false,
+    position: "mid-center",
+  });
+});
