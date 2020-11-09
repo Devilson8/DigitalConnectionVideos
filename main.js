@@ -68,6 +68,36 @@ document.getElementById("theButton2").addEventListener("click", function () {
   });
 });
 
+//Toaster notifications
+
+document.getElementById("theButton3").addEventListener("click", function () {
+  $.toast({
+    heading: "Sorry for inconvenience",
+    text: "About Page still under construction.",
+    icon: "info",
+    showHideTransition: "slide",
+    bgColor: "orange",
+    textColor: "white",
+    loader: false,
+    position: "mid-center",
+  });
+});
+
+//Toaster notifications
+
+document.getElementById("theButton4").addEventListener("click", function () {
+  $.toast({
+    heading: "Sorry for inconvenience",
+    text: "About Page still under construction.",
+    icon: "info",
+    showHideTransition: "slide",
+    bgColor: "orange",
+    textColor: "white",
+    loader: false,
+    position: "mid-center",
+  });
+});
+
 /**
  *
  * THIS PART IF FOR THE VIDEO "WATCH HERE BUTTON" IN THE MAIN PAGE INDEX.HTML

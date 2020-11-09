@@ -1,0 +1,31 @@
+/*
+
+    Style from the image notification
+
+*/
+.alert-minimalist {
+  background-color: #7bbff7;
+  border-color: rgba(149, 149, 149, 0.3);
+  border-radius: 6px;
+  color: #444;
+  padding: 10px;
+  width: 92%;
+  margin: 0 auto;
+  //animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  //   animation: fadeIn;
+  //   animation-duration: 2s; /* don't forget to set a duration! */
+}
+.alert-minimalist > [data-notify="icon"] {
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+}
+.alert-minimalist > [data-notify="title"] {
+  color: #555;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.alert-minimalist > [data-notify="message"] {
+  font-size: 80%;
+}

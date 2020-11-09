@@ -123,7 +123,36 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
 
+    <!--CDN BOOTSTRAP NOTIFY CSS-->
+    <!-- <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  /> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-notify/0.2.0/css/bootstrap-notify.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-notify/0.2.0/css/bootstrap-notify.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-notify/0.2.0/css/styles/alert-blackgloss.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--END BOOSTRAP NOTIFY CDN CSS-->
+
     <!--CSS Link-->
+    <link rel="stylesheet" href="css/bootstrapNotify.css" />
     <link rel="stylesheet" type="text/css" href="css/members.css" />
     <link rel="icon" type="image/jpg" href="pics/me1_1.png" />
     <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
@@ -201,7 +230,13 @@
             <a href="index.html" key="home" class="theAnchor1 tr">home</a>
           </li>
           <li class="theList1">
-            <a href="about.html" key="about" class="theAnchor1 tr">about</a>
+            <a
+              href="#"
+              key="about"
+              class="theAnchor1 tr"
+              onclick="theFunction()"
+              >about</a
+            >
           </li>
           <li class="theList1">
             <a href="members.html" key="members" class="active theAnchor1 tr"
@@ -312,10 +347,10 @@
                   <div class="col-md-6">
                     <a
                       data-fancybox="gallery"
-                      href="pics/offline.jpg"
-                      data-caption="Photo2"
+                      href="video1.mp4"
+                      data-caption="DCV Video Editing"
                     >
-                      <img src="pics/offline.jpg" alt="" class="img-raised" />
+                      <img src="pics/DCV.png" alt="" class="img-raised" />
                     </a>
                     <a
                       data-fancybox="gallery"
@@ -626,7 +661,7 @@
             >
           </li>
           <li class="theList">
-            <a href="about.html" class="theAnchor"
+            <a href="#" class="theAnchor" onclick="theFunction()"
               ><i class="pe-7s-info"></i> about</a
             >
           </li>
@@ -675,7 +710,7 @@
                     <a href="contacts.html#find">Find Us</a>
                   </li>
                   <li>
-                    <a href="about.html">About Us</a>
+                    <a href="#" onclick="theFunction()">About Us</a>
                   </li>
                 </ul>
               </nav>
@@ -771,6 +806,16 @@
     <script src="map.js"></script>
     <script src="js/lang.js"></script>
     <script src="theLoaderPage.js"></script>
+    <!--Bootstrap notify start CDN JS-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+    <script src="http://bootstrap-notify.remabledesigns.com/js/bootstrap-notify.min.js"></script>
+
+    <script src="js/bootstrapNotify.js"></script>
+    <!--Bootstrap Notify End-->
     <script
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyfSBFsdOVO8MEjeQC_WfQIIGFYcFYIBs&callback=initMap"
