@@ -155,7 +155,7 @@ $(document).ready(function () {
   $(".set-full-height").css("height", "auto");
 });
 
-//Function to show image before upload
+//Function to show image before uploads
 
 function readURL(input) {
   if (input.files && input.files[0]) {
